@@ -2,7 +2,8 @@ document.addEventListener("DOMContentLoaded",function(){
     const Containerbox = document.getElementById("Container")
     Containerbox.innerHTML = ``
     const dataset = [
-       {
+        // Here add the new calculator
+        {
             type:"Beginner Friendly",
             tag:"CSS",
             img:"./SourseImges/3dcard.png",
@@ -10,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
             title:"360 CSS Slider",
             postlink:"./3D Card/3dcard.html",
             githublink:"https://github.com/Souravhere/funwithsourav/tree/main/3D%20Card"
-        },
+        }
     ]
     dataset.forEach(ele => {
         Containerbox.innerHTML += `
