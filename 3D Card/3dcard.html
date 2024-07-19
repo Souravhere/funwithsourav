@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #D2D2D2;
+            background-image:
+            repeating-linear-gradient(
+                to right, transparent 0 100px,
+                #25283b22 100px 101px
+            ),
+            repeating-linear-gradient(
+                to bottom, transparent 0 100px,
+                #25283b22 100px 101px
+            );
+        }
+        
+        body::before{
+            position: absolute;
+            width: min(1400px, 90vw);
+            top: 10%;
+            left: 50%;
+            height: 90%;
+            transform: translateX(-50%);
+            content: '';
+            background-image: url(images/bg.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: top center;
+            pointer-events: none;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="banner">
+        <div class="slider" style="--quantity: 10">
+            <div class="item" style="--position: 1"><img src="https://i.pinimg.com/564x/d0/83/51/d08351cf4752af28b9abec4095920a26.jpg" alt=""></div>
+            <div class="item" style="--position: 2"><img src="https://i.pinimg.com/564x/dc/d9/7c/dcd97c7535b6e49c0342b4a675906124.jpg" alt=""></div>
+            <div class="item" style="--position: 3"><img src="https://i.pinimg.com/564x/c5/a0/66/c5a06671822e59ea3b5afb1d9ba33407.jpg" alt=""></div>
+            <div class="item" style="--position: 4"><img src="https://i.pinimg.com/564x/04/24/97/042497f0af0c373bc5a47db08d36a966.jpg" alt=""></div>
+            <div class="item" style="--position: 5"><img src="https://i.pinimg.com/564x/5f/fa/49/5ffa49742b7eaaea33a14905835e77f5.jpg" alt=""></div>
+            <div class="item" style="--position: 6"><img src="https://i.pinimg.com/564x/f7/ff/ed/f7ffed641772309cdc3f002b02adbcbd.jpg" alt=""></div>
+            <div class="item" style="--position: 7"><img src="https://i.pinimg.com/736x/69/cd/ba/69cdbad626618687a16f942309bd3f60.jpg" alt=""></div>
+            <div class="item" style="--position: 8"><img src="https://i.pinimg.com/736x/6e/ae/0a/6eae0a8e452f2e9faeb884fd66bfc930.jpg" alt=""></div>
+            <div class="item" style="--position: 9"><img src="https://i.pinimg.com/564x/d1/76/c5/d176c570b1f91b3a179225d2e91f3268.jpg" alt=""></div>
+            <div class="item" style="--position: 10"><img src="https://i.pinimg.com/564x/00/37/bc/0037bc09f62209a62eb49255617d3292.jpg" alt=""></div>
+        </div>
+        <div class="content">
+            <h1  data-content="SIDHU">
+                SIDHU
+            </h1>
+            <div class="author">
+                <h2>SOURAV</h2>
+                <p><b>Web Design</b></p>
+                <p>
+                    INSTAGRAM <a href="">@sourav_chhimpa</a>
+                </p>
+            </div>
+            <div class="model"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
