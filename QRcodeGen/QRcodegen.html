@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="qrcss.css">
+    <title>QR Code Generator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <img id="image" src="" alt="">
+        <div class="form">
+            <input type="text" id="content" placeholder="Enter text or URL">
+            <button id="createqr">Create QR</button>
+        </div>
+    </div>
+    <script>
+        let img = document.getElementById("image");
+        let content = document.getElementById("content");
+        let button = document.getElementById("createqr");
+
+        button.onclick = () => {
+            if (content.value === '') return;
+            let linkqr = 'https://api.qrserver.com/v1/create-qr-code/';
+            img.src = linkqr + '?size=500x500&data=' + encodeURIComponent(content.value);
+        };
+    </script>
 </body>
 </html>
