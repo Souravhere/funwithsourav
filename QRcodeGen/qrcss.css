@@ -50,3 +50,10 @@ body {
 .container button:hover {
     background-color: lightgreen;
 }
+#downloadqr {
+    background-color: darkcyan;
+    transition: 500ms;
+}
+#downloadqr:hover{
+    background-color: darkgray;
+}

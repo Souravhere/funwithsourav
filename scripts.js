@@ -19,6 +19,15 @@ document.addEventListener("DOMContentLoaded",function(){
             title:"360 CSS Slider",
             postlink:"./3D Card/3dcard.html",
             githublink:"https://github.com/Souravhere/funwithsourav/tree/main/3D%20Card"
+        },
+        {
+            type:"Beginner Friendly",
+            tag:"Javascript",
+            img:"./SourseImges/qrcode-genrator.png",
+            imgalt:"3d Card UI",
+            title:"QR Code Genrator",
+            postlink:"./QRcodeGen/QRcodegen.html",
+            githublink:"https://github.com/Souravhere/funwithsourav/tree/main/QRcodeGen"
         }
     ]
     dataset.forEach(ele => {
