@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded",function(){
                     <div class="w-1/2">
     <a href="${ele.githublink}" target="_blank"><div class="flex gap-3 items-center justify-center mt-4 mb-4 text-xl text-white bg-green-600 py-2 rounded-xl shadow-lg text-center hover:bg-green-400 transition duration-500">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.935v2.131l-8 3.947v-2.23l5.64-2.783-5.64-2.79v-2.223l8 3.948zm-16 3.848l-5.64-2.783 5.64-2.79v-2.223l-8 3.948v2.131l8 3.947v-2.23zm7.047-10.783h-2.078l-4.011 16h2.073l4.016-16z"/></svg>
-          <p>Demo</p>
+          <p>Code</p>
     </div></a>
 </div>
                 </div>
