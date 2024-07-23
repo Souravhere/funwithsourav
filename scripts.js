@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",function(){
         {
             type:" Advanced",
             tag:"Javascript",
-            img:"./Soialshare/share.png",
+            img:"./SourseImges/share.png",
             imgalt:"Share This Page",
             title:"Share System Injector",
             postlink:"./Socialshare/share.html",
