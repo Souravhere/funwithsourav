@@ -12,6 +12,15 @@ document.addEventListener("DOMContentLoaded",function(){
     const dataset = [
         // Here add the new calculator
         {
+            type:"Advance",
+            tag:"Javascript",
+            img:"./SourseImges/3dcard.png",
+            imgalt:"Breadcrumb",
+            title:"JS Page Breadcrumb Injector",
+            postlink:"./Breadcrumb/Breadcrumb.html",
+            githublink:"https://github.com/Souravhere/funwithsourav/tree/main/Breadcrumb"
+        },
+        {
             type:"Beginner Friendly",
             tag:"CSS",
             img:"./SourseImges/3dcard.png",
