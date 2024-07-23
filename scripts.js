@@ -14,10 +14,10 @@ document.addEventListener("DOMContentLoaded",function(){
         {
             type:" Advanced",
             tag:"Javascript",
-            img:"./Socialshare/share.png",
+            img:"./Soialshare/share.png",
             imgalt:"Share This Page",
             title:"Share System Injector",
-            postlink:"./Socilashare/share.html",
+            postlink:"./Socialshare/share.html",
             githublink:"https://github.com/Souravhere/funwithsourav/tree/main/Socialshare"
         },
         {

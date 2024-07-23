@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const imageUrl = 'https://veggie-smart.vercel.app/SourceImages/open-graph-img.png'; 
     const pageDescription = 'A tool to calculate vegetable prices, recipe costs, and more. Updated regularly with new features.';
-    const pageTitle = encodeURIComponent(document.title + ' | Where Smart Calculations Begin');
+    const pageTitle = encodeURIComponent(document.title + ' | Fun with Sourav');
     const pageUrl = encodeURIComponent(window.location.href);
     const encodedImageUrl = encodeURIComponent(imageUrl);
     const encodedDescription = encodeURIComponent(pageDescription);
