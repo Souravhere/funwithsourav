@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded",function(){
     const dataset = [
         // Here add the new calculator
         {
-            type:" Advanced",
+            type:"Beginner Friendly",
             tag:"Javascript",
-            img:"./SourseImges/Share.png",
+            img:"./SourseImges/WhatsAppMessageSystem.png",
             imgalt:"WhatsApp Message System",
             title:"WhatsApp Message System",
             postlink:"./whatsappMessageSystem/whatsappMessageSystem.html",
