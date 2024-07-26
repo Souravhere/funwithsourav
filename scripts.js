@@ -15,6 +15,15 @@ document.addEventListener("DOMContentLoaded",function(){
             type:" Advanced",
             tag:"Javascript",
             img:"./SourseImges/Share.png",
+            imgalt:"WhatsApp Message System",
+            title:"WhatsApp Message System",
+            postlink:"./whatsappMessageSystem/whatsappMessageSystem.html",
+            githublink:"https://github.com/Souravhere/funwithsourav/tree/main/whatsappMessageSystem"
+        },
+        {
+            type:" Advanced",
+            tag:"Javascript",
+            img:"./SourseImges/Share.png",
             imgalt:"Share This Page",
             title:"Share System Injector",
             postlink:"./Socialshare/share.html",
