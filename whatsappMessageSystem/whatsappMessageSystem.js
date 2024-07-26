@@ -6,8 +6,8 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             background-color: #25D366;
             border-radius: 50%;
             display: flex;
@@ -15,28 +15,31 @@
             align-items: center;
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
         }
         .whatsapp-icon img {
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
         }
         .whatsapp-popup {
             display: none;
             position: fixed;
-            bottom: 80px;
+            bottom: 100px;
             right: 20px;
-            width: 300px;
-            background-color: #333;
+            width: 90%;
+            max-width: 400px;
+            background-color: #2c2c2c;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             padding: 20px;
             color: #fff;
+            z-index: 1000;
         }
         .whatsapp-popup input,
         .whatsapp-popup textarea {
-            width: 100%;
+            width: 95%;
             padding: 10px;
-            margin: 10px 0;
+            margin: 10px auto;
             border: 1px solid #555;
             border-radius: 5px;
             background-color: #444;
@@ -93,6 +96,13 @@
             window.open(whatsappUrl, '_blank');
         } else {
             alert('Please fill out all fields.');
+        }
+    });
+
+    // Hide popup when clicking outside
+    document.addEventListener('click', (event) => {
+        if (!popup.contains(event.target) && !whatsappIcon.contains(event.target)) {
+            popup.style.display = 'none';
         }
     });
 })();
