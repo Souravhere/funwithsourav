@@ -26,18 +26,21 @@
             bottom: 80px;
             right: 20px;
             width: 300px;
-            background-color: #ffffff;
+            background-color: #333;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             padding: 20px;
+            color: #fff;
         }
         .whatsapp-popup input,
         .whatsapp-popup textarea {
             width: 100%;
             padding: 10px;
             margin: 10px 0;
-            border: 1px solid #ddd;
+            border: 1px solid #555;
             border-radius: 5px;
+            background-color: #444;
+            color: #fff;
         }
         .whatsapp-popup button {
             width: 100%;
@@ -47,6 +50,9 @@
             color: #fff;
             border-radius: 5px;
             cursor: pointer;
+        }
+        .whatsapp-popup button:hover {
+            background-color: #1ebc57;
         }
     `;
     document.head.appendChild(style);
